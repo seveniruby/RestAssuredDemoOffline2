@@ -35,7 +35,6 @@ public class XueqiuTest {
         responseSpecification.body("code", equalTo(1));
         //loginXueqiu();
 
-
     }
     public static  void loginXueqiu(){
         code=given()
