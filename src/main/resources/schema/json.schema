@@ -1,0 +1,374 @@
+{
+  "$id": "https://testerhome.com/api/v3/topics/6040.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "topic": {
+      "$id": "/properties/topic",
+      "type": "object",
+      "properties": {
+        "id": {
+          "$id": "/properties/topic/properties/id",
+          "type": "integer",
+          "title": "The Id Schema ",
+          "default": 0,
+          "examples": [
+            6040
+          ],
+          "minimum": 1
+        },
+        "title": {
+          "$id": "/properties/topic/properties/title",
+          "type": "string",
+          "title": "The Title Schema ",
+          "default": "",
+          "examples": [
+            "通过代理安装 appium"
+          ],
+          "minLength": 3,
+          "maxLength": 200
+        },
+        "created_at": {
+          "$id": "/properties/topic/properties/created_at",
+          "type": "string",
+          "title": "The Created_at Schema ",
+          "default": "",
+          "examples": [
+            "2016-09-29T23:48:48.450+08:00"
+          ],
+          "minLength": 3,
+          "maxLength": 200
+        },
+        "updated_at": {
+          "$id": "/properties/topic/properties/updated_at",
+          "type": "string",
+          "title": "The Updated_at Schema ",
+          "default": "",
+          "examples": [
+            "2018-02-25T21:07:18.441+08:00"
+          ],
+          "minLength": 3,
+          "maxLength": 200
+        },
+        "replied_at": {
+          "$id": "/properties/topic/properties/replied_at",
+          "type": "string",
+          "title": "The Replied_at Schema ",
+          "default": "",
+          "examples": [
+            "2018-02-25T11:39:12.056+08:00"
+          ],
+          "minLength": 3,
+          "maxLength": 200
+        },
+        "replies_count": {
+          "$id": "/properties/topic/properties/replies_count",
+          "type": "integer",
+          "title": "The Replies_count Schema ",
+          "default": 0,
+          "examples": [
+            7
+          ],
+          "minimum": 1
+        },
+        "node_name": {
+          "$id": "/properties/topic/properties/node_name",
+          "type": "string",
+          "title": "The Node_name Schema ",
+          "default": "",
+          "examples": [
+            "Appium"
+          ],
+          "minLength": 3,
+          "maxLength": 200
+        },
+        "node_id": {
+          "$id": "/properties/topic/properties/node_id",
+          "type": "integer",
+          "title": "The Node_id Schema ",
+          "default": 0,
+          "examples": [
+            23
+          ],
+          "minimum": 1
+        },
+        "last_reply_user_id": {
+          "$id": "/properties/topic/properties/last_reply_user_id",
+          "type": "integer",
+          "title": "The Last_reply_user_id Schema ",
+          "default": 0,
+          "examples": [
+            17564
+          ],
+          "minimum": 1
+        },
+        "last_reply_user_login": {
+          "$id": "/properties/topic/properties/last_reply_user_login",
+          "type": "string",
+          "title": "The Last_reply_user_login Schema ",
+          "default": "",
+          "examples": [
+            "smartnaruto"
+          ],
+          "minLength": 3,
+          "maxLength": 200
+        },
+        "excellent": {
+          "$id": "/properties/topic/properties/excellent",
+          "type": "integer",
+          "title": "The Excellent Schema ",
+          "default": 0,
+          "examples": [
+            0
+          ],
+          "minimum": 1
+        },
+        "likes_count": {
+          "$id": "/properties/topic/properties/likes_count",
+          "type": "integer",
+          "title": "The Likes_count Schema ",
+          "default": 0,
+          "examples": [
+            14
+          ],
+          "minimum": 1
+        },
+        "suggested_at": {
+          "$id": "/properties/topic/properties/suggested_at",
+          "type": "null",
+          "title": "The Suggested_at Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "closed_at": {
+          "$id": "/properties/topic/properties/closed_at",
+          "type": "null",
+          "title": "The Closed_at Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "deleted": {
+          "$id": "/properties/topic/properties/deleted",
+          "type": "boolean",
+          "title": "The Deleted Schema ",
+          "default": false,
+          "examples": [
+            false
+          ]
+        },
+        "user": {
+          "$id": "/properties/topic/properties/user",
+          "type": "object",
+          "properties": {
+            "id": {
+              "$id": "/properties/topic/properties/user/properties/id",
+              "type": "integer",
+              "title": "The Id Schema ",
+              "default": 0,
+              "examples": [
+                104
+              ],
+              "minimum": 1
+            },
+            "login": {
+              "$id": "/properties/topic/properties/user/properties/login",
+              "type": "string",
+              "title": "The Login Schema ",
+              "default": "",
+              "examples": [
+                "seveniruby"
+              ],
+              "minLength": 3,
+              "maxLength": 200
+            },
+            "name": {
+              "$id": "/properties/topic/properties/user/properties/name",
+              "type": "string",
+              "title": "The Name Schema ",
+              "default": "",
+              "examples": [
+                "思寒"
+              ],
+              "minLength": 3,
+              "maxLength": 200
+            },
+            "avatar_url": {
+              "$id": "/properties/topic/properties/user/properties/avatar_url",
+              "type": "string",
+              "title": "The Avatar_url Schema ",
+              "default": "",
+              "examples": [
+                "/uploads/user/avatar/104.jpg!large"
+              ],
+              "minLength": 3,
+              "maxLength": 200
+            },
+            "abilities": {
+              "$id": "/properties/topic/properties/user/properties/abilities",
+              "type": "object",
+              "properties": {
+                "update": {
+                  "$id": "/properties/topic/properties/user/properties/abilities/properties/update",
+                  "type": "boolean",
+                  "title": "The Update Schema ",
+                  "default": false,
+                  "examples": [
+                    false
+                  ]
+                },
+                "destroy": {
+                  "$id": "/properties/topic/properties/user/properties/abilities/properties/destroy",
+                  "type": "boolean",
+                  "title": "The Destroy Schema ",
+                  "default": false,
+                  "examples": [
+                    false
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "body": {
+          "$id": "/properties/topic/properties/body",
+          "type": "string",
+          "title": "The Body Schema ",
+          "default": "",
+          "examples": [
+            "# appium难安装的问题\r\nappium的安装有2个主要的过程\r\n\r\n- 安装依赖包\r\n- 下载chromedriver\r\n\r\n淘宝的镜像可以方便的下载依赖包, 他能把大部分的依赖都缓存到国内.  但是解决不了第二个问题, 因为第二个是绕过了npm的包管理方式直接下载的.\r\n所以需要两个代理的设置. \r\n\r\n- npm代理\r\n- 普通下载代理\r\n\r\n# 安装\r\n\r\n```bash\r\nproxy=http://112.126.81.122:6$(date +%m%d)\r\nhttp_proxy=$proxy https_proxy=$proxy npm --proxy $proxy --https-proxy $proxy  install -g appium --verbose\r\n```\r\n\r\n# 安装不同的版本\r\n在上面代理的基础上\r\n\r\n```bash\r\nnpm install appium@x.x.x \r\n```\r\n具体版本可通过npm查询出来\r\n```bash\r\nnpm view appium versions --json\r\n```\r\n\r\n# 淘宝镜像\r\n如果代理不可用了, 最后一招\r\n```bash\r\nnpm install -g cnpm --registry=https://registry.npm.taobao.org\r\ncnpm install -g appium\r\n```\r\n"
+          ],
+          "minLength": 3,
+          "maxLength": 200
+        },
+        "body_html": {
+          "$id": "/properties/topic/properties/body_html",
+          "type": "string",
+          "title": "The Body_html Schema ",
+          "default": "",
+          "examples": [
+            "<h2 id=\"appium难安装的问题\">appium难安装的问题</h2>\n<p>appium的安装有2个主要的过程</p>\n\n<ul>\n<li>安装依赖包</li>\n<li>下载chromedriver</li>\n</ul>\n\n<p>淘宝的镜像可以方便的下载依赖包, 他能把大部分的依赖都缓存到国内.  但是解决不了第二个问题, 因为第二个是绕过了npm的包管理方式直接下载的.<br>\n所以需要两个代理的设置. </p>\n\n<ul>\n<li>npm代理</li>\n<li>普通下载代理</li>\n</ul>\n<h2 id=\"安装\">安装</h2> <pre class=\"highlight shell\"><code><span class=\"nv\">proxy</span><span class=\"o\">=</span>http://112.126.81.122:6<span class=\"k\">$(</span><span class=\"nb\">date</span> +%m%d<span class=\"k\">)</span>\n<span class=\"nv\">http_proxy</span><span class=\"o\">=</span><span class=\"nv\">$proxy</span> <span class=\"nv\">https_proxy</span><span class=\"o\">=</span><span class=\"nv\">$proxy</span> npm <span class=\"nt\">--proxy</span> <span class=\"nv\">$proxy</span> <span class=\"nt\">--https-proxy</span> <span class=\"nv\">$proxy</span>  <span class=\"nb\">install</span> <span class=\"nt\">-g</span> appium <span class=\"nt\">--verbose</span>\n</code></pre> <h2 id=\"安装不同的版本\">安装不同的版本</h2>\n<p>在上面代理的基础上</p>\n <pre class=\"highlight shell\"><code>npm <span class=\"nb\">install </span>appium@x.x.x \n</code></pre> \n<p>具体版本可通过npm查询出来</p>\n <pre class=\"highlight shell\"><code>npm view appium versions <span class=\"nt\">--json</span>\n</code></pre> <h2 id=\"淘宝镜像\">淘宝镜像</h2>\n<p>如果代理不可用了, 最后一招</p>\n <pre class=\"highlight shell\"><code>npm <span class=\"nb\">install</span> <span class=\"nt\">-g</span> cnpm <span class=\"nt\">--registry</span><span class=\"o\">=</span>https://registry.npm.taobao.org\ncnpm <span class=\"nb\">install</span> <span class=\"nt\">-g</span> appium\n</code></pre> "
+          ],
+          "minLength": 3,
+          "maxLength": 200
+        },
+        "hits": {
+          "$id": "/properties/topic/properties/hits",
+          "type": "integer",
+          "title": "The Hits Schema ",
+          "default": 0,
+          "examples": [
+            452
+          ],
+          "minimum": 1
+        },
+        "abilities": {
+          "$id": "/properties/topic/properties/abilities",
+          "type": "object",
+          "properties": {
+            "update": {
+              "$id": "/properties/topic/properties/abilities/properties/update",
+              "type": "boolean",
+              "title": "The Update Schema ",
+              "default": false,
+              "examples": [
+                false
+              ]
+            },
+            "destroy": {
+              "$id": "/properties/topic/properties/abilities/properties/destroy",
+              "type": "boolean",
+              "title": "The Destroy Schema ",
+              "default": false,
+              "examples": [
+                false
+              ]
+            },
+            "ban": {
+              "$id": "/properties/topic/properties/abilities/properties/ban",
+              "type": "boolean",
+              "title": "The Ban Schema ",
+              "default": false,
+              "examples": [
+                false
+              ]
+            },
+            "excellent": {
+              "$id": "/properties/topic/properties/abilities/properties/excellent",
+              "type": "boolean",
+              "title": "The Excellent Schema ",
+              "default": false,
+              "examples": [
+                false
+              ]
+            },
+            "unexcellent": {
+              "$id": "/properties/topic/properties/abilities/properties/unexcellent",
+              "type": "boolean",
+              "title": "The Unexcellent Schema ",
+              "default": false,
+              "examples": [
+                false
+              ]
+            },
+            "close": {
+              "$id": "/properties/topic/properties/abilities/properties/close",
+              "type": "boolean",
+              "title": "The Close Schema ",
+              "default": false,
+              "examples": [
+                false
+              ]
+            },
+            "open": {
+              "$id": "/properties/topic/properties/abilities/properties/open",
+              "type": "boolean",
+              "title": "The Open Schema ",
+              "default": false,
+              "examples": [
+                false
+              ]
+            }
+          }
+        }
+      }
+    },
+    "meta": {
+      "$id": "/properties/meta",
+      "type": "object",
+      "properties": {
+        "followed": {
+          "$id": "/properties/meta/properties/followed",
+          "type": "boolean",
+          "title": "The Followed Schema ",
+          "default": false,
+          "examples": [
+            false
+          ]
+        },
+        "liked": {
+          "$id": "/properties/meta/properties/liked",
+          "type": "boolean",
+          "title": "The Liked Schema ",
+          "default": false,
+          "examples": [
+            false
+          ]
+        },
+        "favorited": {
+          "$id": "/properties/meta/properties/favorited",
+          "type": "boolean",
+          "title": "The Favorited Schema ",
+          "default": false,
+          "examples": [
+            false
+          ]
+        }
+      }
+    }
+  }
+}
