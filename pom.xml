@@ -42,12 +42,6 @@
         </dependency>
 
         <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>dubbo-registry</artifactId>
-            <version>2.6.1</version>
-        </dependency>
-
-        <dependency>
             <groupId>io.swagger</groupId>
             <artifactId>swagger-java-client</artifactId>
             <version>1.0.0</version>
@@ -61,5 +55,6 @@
     <properties>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.source>1.8</maven.compiler.source>
+        <dependency.locations.enabled>false</dependency.locations.enabled>
     </properties>
 </project>

@@ -1,0 +1,17 @@
+package com.xueqiu.service.com.xueqiu.service;
+
+import com.xueqiu.service.com.xueqiu.service.tags.Smoke;
+import com.xueqiu.service.dongtai.SimpleDongTaiTestCase;
+import com.xueqiu.service.zixuan.SimpleZiXuanTestCase;
+import org.junit.experimental.categories.Categories;
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
+
+@RunWith(Categories.class)
+@Categories.IncludeCategory(Smoke.class)
+@Suite.SuiteClasses({
+        SimpleDongTaiTestCase.class,
+        SimpleZiXuanTestCase.class
+})
+public class SimpleSmokeSuite {
+}
